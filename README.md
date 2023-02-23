@@ -1,6 +1,5 @@
 # Olaparib Refractory
 ### Author: Won-Jun Lim
-### Contact: cerutx@gmail.com
 
 This workflow performs matrix factorization using MOFA on multi-omics data to find biomarkers that best explain the phenotype. The phenotype used here is the drug response of olaparib. The identified biomarker candidates propose predictive models for classifying the phenotype using Support Vector Machine, Random Forest, and Siamese Neural Network.
 
