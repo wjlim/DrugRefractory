@@ -5,7 +5,9 @@ This workflow performs matrix factorization using MOFA on multi-omics data to fi
 
 ## MOFA.activites.olaparib.ipynb
 * This is a MOFA workflow that finds important biomarker candidates from multi-omics data. The identified biomarkers are used to predict drug response in ovarian cancer patients and breast cancer patients in TCGA. The first part of the code consists of MOFA analysis, and the second part applies the Siamese network classifier for model prediction.
+![workflow](workflow.tif)
+
 ## MOFA.siamese.ipynb
 * This notebook uses the biomarker candidates identified from MOFA to create a Siamese neural network and predict drug response.
-## Evaluate_SNN.GDSC.ipynb
+## Evaluate.GDSC.ipynb
 * This notebook uses external datasets from the Genomics of Drug Sensitivity in Cancer (GDSC) to test the performance of the model.
